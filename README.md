@@ -2,7 +2,7 @@
 
 
 <img src="Form" align="right" width="600" height="300">
-Responsive Form Website Design 
+• Responsive Form Website Design 
 
 
 # Getting Started with Create React App

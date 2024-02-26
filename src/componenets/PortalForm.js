@@ -39,11 +39,11 @@ function PortalForm() {
              label="Okulunuz"
              name="universtiy"
              placeholder="Kullanıcı ünüversitenizi seçiniz">
-                <option value=""> Lütfen ünüversitenizi Seçiniz</option>
-                <option value=""> Boğaziçi ünüversitesi</option>
-                <option value=""> Galatasaray ünüversitesi</option>
-                <option value=""> ODTÜ ünüversitesi</option>
-                <option value=""> İTÜ ünüversitesi</option>
+                 <option value=""> Lütfen ünüversitenizi Seçiniz</option>
+                <option value="bogazici"> Boğaziçi ünüversitesi</option>
+                <option value="gsu"> Galatasaray ünüversitesi</option>
+                <option value="odtü"> ODTÜ ünüversitesi</option>
+                <option value="itü"> İTÜ ünüversitesi</option>
              </CustomSelect>
              <CustomCheckbox type="checkbox" name="isAccepted"/>
              <button disabled={isSubmitting} type='submit'>KAYDET</button>
